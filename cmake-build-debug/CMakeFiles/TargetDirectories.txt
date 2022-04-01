@@ -1,0 +1,3 @@
+/Users/maxboykin/CLionProjects/ANSI_Book/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maxboykin/CLionProjects/ANSI_Book/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maxboykin/CLionProjects/ANSI_Book/cmake-build-debug/CMakeFiles/ANSI_Book.dir

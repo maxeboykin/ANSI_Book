@@ -8,10 +8,25 @@
 
 #include <stdio.h>
 
-int main() {
-    int c;
-    while((c = getchar()) != EOF) { //precedence of != is greater than =, so use braces
-        putchar(c);
+#define IN 1 /* inside a word */
+#define OUT 0 /* outside a word */
+/* count lines, words, and characters in input */
+
+main() {
+    int c, nl, nw, nc, state;
+
+    state = OUT;
+    nl = nw = nc = 0;
+    while ((c = getchar()) != EOF) {
+        ++nc;
+        if (c == '\n')
+            ++nl;
+        if (c == ' ' || c == '\n' || c == '\t')
+            state = OUT;
+        else if (state == OUT) {
+            state = IN;
+            ++nw;
+        }
     }
-    printf("%d - at EOF\n", c);
+    printf("%d %d %d\n", nl, nw, nc);
 }

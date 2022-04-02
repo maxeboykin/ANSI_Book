@@ -9,7 +9,7 @@
 
 /* count digits, white space, others*/
 
-main()
+countingDigitsWithArrays()
 {
     int c, i , nwhite, nother;
     int ndigit[10];

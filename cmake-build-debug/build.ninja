@@ -84,6 +84,30 @@ build CMakeFiles/ANSI_Book.dir/main.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxb
   OBJECT_DIR = CMakeFiles/ANSI_Book.dir
   OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir
 
+build CMakeFiles/ANSI_Book.dir/countingSpaces.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/countingSpaces.c || cmake_object_order_depends_target_ANSI_Book
+  DEP_FILE = CMakeFiles/ANSI_Book.dir/countingSpaces.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/ANSI_Book.dir
+  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir
+
+build CMakeFiles/ANSI_Book.dir/countingDigitsWithArrays.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/countingDigitsWithArrays.c || cmake_object_order_depends_target_ANSI_Book
+  DEP_FILE = CMakeFiles/ANSI_Book.dir/countingDigitsWithArrays.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/ANSI_Book.dir
+  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir
+
+build CMakeFiles/ANSI_Book.dir/fahreinheitPowerFunctions.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/fahreinheitPowerFunctions.c || cmake_object_order_depends_target_ANSI_Book
+  DEP_FILE = CMakeFiles/ANSI_Book.dir/fahreinheitPowerFunctions.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/ANSI_Book.dir
+  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir
+
+build CMakeFiles/ANSI_Book.dir/longestLine.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/longestLine.c || cmake_object_order_depends_target_ANSI_Book
+  DEP_FILE = CMakeFiles/ANSI_Book.dir/longestLine.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/ANSI_Book.dir
+  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ANSI_Book
@@ -92,7 +116,7 @@ build CMakeFiles/ANSI_Book.dir/main.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxb
 #############################################
 # Link the executable ANSI_Book
 
-build ANSI_Book: C_EXECUTABLE_LINKER__ANSI_Book_Debug CMakeFiles/ANSI_Book.dir/firstProgram.c.o CMakeFiles/ANSI_Book.dir/main.c.o
+build ANSI_Book: C_EXECUTABLE_LINKER__ANSI_Book_Debug CMakeFiles/ANSI_Book.dir/firstProgram.c.o CMakeFiles/ANSI_Book.dir/main.c.o CMakeFiles/ANSI_Book.dir/countingSpaces.c.o CMakeFiles/ANSI_Book.dir/countingDigitsWithArrays.c.o CMakeFiles/ANSI_Book.dir/fahreinheitPowerFunctions.c.o CMakeFiles/ANSI_Book.dir/longestLine.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/ANSI_Book.dir
   POST_BUILD = :

@@ -16,7 +16,7 @@
 #define OUT 0 /* outside a word */
 /* count lines, words, and characters in input */
 
-main() {
+int countingSpaces() {
     int c, nl, nw, nc, state;
 
     state = OUT;
@@ -33,4 +33,5 @@ main() {
         }
     }
     printf("%d %d %d\n", nl, nw, nc);
+    return nw;
 }

@@ -8,10 +8,9 @@
 
 #include <stdio.h>
 
-#define IN 1 /* inside a word */
-#define OUT 0 /* outside a word */
-/* count lines, words, and characters in input */
+/* count digits, white space, others*/
 
-main() {
+main()
+{
 
 }

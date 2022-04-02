@@ -3,4 +3,4 @@ project(ANSI_Book C)
 
 set(CMAKE_C_STANDARD 90)
 
-add_executable(ANSI_Book firstProgram.c main.c)
+add_executable(ANSI_Book firstProgram.c main.c countingSpaces.c countingDigitsWithArrays.c fahreinheitPowerFunctions.c)

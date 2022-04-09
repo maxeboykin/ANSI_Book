@@ -3,18 +3,18 @@
 //#include<string.h>
 #define MAXLINE 1000 /*maximum input line strength */
 
-int getline(char line[], int max);
+int getlineCustomTwo(char line[], int max);
 int strindex(char source[], char searchfor[]);
 
 char pattern[] = "ould"; /* pattern to search for */
 /* find all lines matching pattern */
 
-main()
+getline_strindex()
 {
     char line[MAXLINE];
     int found = 0;
 
-    while (getline(line, 1000) > 0)
+    while (getlineCustomTwo(line, 1000) > 0)
         if(strindex(line, pattern) >= 0) {
             printf("%s", line);
             found++;
@@ -23,7 +23,7 @@ main()
 }
 
 /*getline: get line into s, return length */
-int getline(char s[], int lim)
+int getlineCustomTwo(char s[], int lim)
 {
     int c, i;
 

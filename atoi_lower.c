@@ -8,13 +8,13 @@
  * as an argument and returns its value of type int. So basically the
  * function is used to convert a string argument to an integer.
  */
-int atoi(char s[])
-{
+int atoiCustom(char s[]) {
     int i, n;
 
     n = 0;
     for (i = 0; s[i] >= '0' && s[i] <= '9'; ++i)
         n = 10 * n + (s[i] - '0');
+    //example 55, first would be 5 since n = 0; then it would be 5*10 + 5 => 55/
     return n;
 }
 

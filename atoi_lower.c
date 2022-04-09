@@ -1,7 +1,8 @@
 //
 // Created by Max Boykin on 4/5/22.
 //
-
+#include <string.h>
+#include <stdio.h>
 /* atoi: convert s to integer
  * The atoi() function in C takes a string (which represents an integer)
  * as an argument and returns its value of type int. So basically the
@@ -57,21 +58,19 @@ int htoi(char s[])
             n = 16 * n + hexdigit;
         }
     }
-    printf("%d", n);
+    printf("%i", n);
     return n;
 }
 
 /*strcat: concatenate t to end of s; s must be big enough */
-void strcat(char s[], char t[])
-{
-    int i , j;
-    i = j = 0;
-    while (s[i] != '\0') /* find end of s */
-        i++;
-    while ((s[i++] = t[j++]) != '\0'); /* copy t */
-}
-
-
+//void strcat(char s[], char t[])
+//{
+//    int i , j;
+//    i = j = 0;
+//    while (s[i] != '\0') /* find end of s */
+//        i++;
+//    while ((s[i++] = t[j++]) != '\0'); /* copy t */
+//}
 int randomFunctions()
 {
     char a[] = "0x71927";

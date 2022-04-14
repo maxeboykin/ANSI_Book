@@ -9,6 +9,7 @@ int main()
 {
     //evenOrOdd();
     //returnLargestOfThree();
-    checkLeapYear();
+    //checkLeapYear();
+    checkIfAlphabet();
     return 0;
 }

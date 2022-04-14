@@ -50,3 +50,14 @@ void checkLeapYear()
     year % 400 == 0 ? printf("%d is a leap year\n", year) : printf("%d is not a leap year\n", year);
     return;
 }
+
+void checkIfAlphabet()
+{
+    char ch;
+    printf("Enter any character: ");
+    scanf("%c", &ch);
+
+    printf("It is %s", (((ch>='a' && ch<='z') || (ch>='A' && ch <='Z'))
+    ? "in the alphabet" : "not in the alphabet") );
+
+}

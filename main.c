@@ -12,6 +12,7 @@ int main()
     //returnLargestOfThree();
     //checkLeapYear();
     //checkIfAlphabet();
-    atoiCustom("134");
+    htoiCustom("0x7D7");
+    // atoiCustom("134");
     return 0;
 }

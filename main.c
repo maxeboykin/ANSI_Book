@@ -7,6 +7,8 @@
 
 int main()
 {
-    evenOrOdd();
+    //evenOrOdd();
+    //returnLargestOfThree();
+    checkLeapYear();
     return 0;
 }

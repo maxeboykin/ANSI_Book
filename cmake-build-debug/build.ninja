@@ -72,11 +72,11 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_ANSI_Book: phony || CMakeFiles/ANSI_Book.dir
 
-build CMakeFiles/ANSI_Book.dir/firstProgram.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/firstProgram.c || cmake_object_order_depends_target_ANSI_Book
-  DEP_FILE = CMakeFiles/ANSI_Book.dir/firstProgram.c.o.d
+build CMakeFiles/ANSI_Book.dir/ANSI_Activities/firstProgram.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/ANSI_Activities/firstProgram.c || cmake_object_order_depends_target_ANSI_Book
+  DEP_FILE = CMakeFiles/ANSI_Book.dir/ANSI_Activities/firstProgram.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu90
   OBJECT_DIR = CMakeFiles/ANSI_Book.dir
-  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir
+  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir/ANSI_Activities
 
 build CMakeFiles/ANSI_Book.dir/main.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/main.c || cmake_object_order_depends_target_ANSI_Book
   DEP_FILE = CMakeFiles/ANSI_Book.dir/main.c.o.d
@@ -84,29 +84,65 @@ build CMakeFiles/ANSI_Book.dir/main.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxb
   OBJECT_DIR = CMakeFiles/ANSI_Book.dir
   OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir
 
-build CMakeFiles/ANSI_Book.dir/countingSpaces.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/countingSpaces.c || cmake_object_order_depends_target_ANSI_Book
-  DEP_FILE = CMakeFiles/ANSI_Book.dir/countingSpaces.c.o.d
+build CMakeFiles/ANSI_Book.dir/ANSI_Activities/countingSpaces.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/ANSI_Activities/countingSpaces.c || cmake_object_order_depends_target_ANSI_Book
+  DEP_FILE = CMakeFiles/ANSI_Book.dir/ANSI_Activities/countingSpaces.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu90
   OBJECT_DIR = CMakeFiles/ANSI_Book.dir
-  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir
+  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir/ANSI_Activities
 
-build CMakeFiles/ANSI_Book.dir/countingDigitsWithArrays.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/countingDigitsWithArrays.c || cmake_object_order_depends_target_ANSI_Book
-  DEP_FILE = CMakeFiles/ANSI_Book.dir/countingDigitsWithArrays.c.o.d
+build CMakeFiles/ANSI_Book.dir/ANSI_Activities/countingDigitsWithArrays.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/ANSI_Activities/countingDigitsWithArrays.c || cmake_object_order_depends_target_ANSI_Book
+  DEP_FILE = CMakeFiles/ANSI_Book.dir/ANSI_Activities/countingDigitsWithArrays.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu90
   OBJECT_DIR = CMakeFiles/ANSI_Book.dir
-  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir
+  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir/ANSI_Activities
 
-build CMakeFiles/ANSI_Book.dir/fahreinheitPowerFunctions.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/fahreinheitPowerFunctions.c || cmake_object_order_depends_target_ANSI_Book
-  DEP_FILE = CMakeFiles/ANSI_Book.dir/fahreinheitPowerFunctions.c.o.d
+build CMakeFiles/ANSI_Book.dir/ANSI_Activities/fahreinheitPowerFunctions.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/ANSI_Activities/fahreinheitPowerFunctions.c || cmake_object_order_depends_target_ANSI_Book
+  DEP_FILE = CMakeFiles/ANSI_Book.dir/ANSI_Activities/fahreinheitPowerFunctions.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu90
   OBJECT_DIR = CMakeFiles/ANSI_Book.dir
-  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir
+  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir/ANSI_Activities
 
-build CMakeFiles/ANSI_Book.dir/longestLine.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/longestLine.c || cmake_object_order_depends_target_ANSI_Book
-  DEP_FILE = CMakeFiles/ANSI_Book.dir/longestLine.c.o.d
+build CMakeFiles/ANSI_Book.dir/ANSI_Activities/longestLine.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/ANSI_Activities/longestLine.c || cmake_object_order_depends_target_ANSI_Book
+  DEP_FILE = CMakeFiles/ANSI_Book.dir/ANSI_Activities/longestLine.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu90
   OBJECT_DIR = CMakeFiles/ANSI_Book.dir
-  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir
+  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir/ANSI_Activities
+
+build CMakeFiles/ANSI_Book.dir/ANSI_Activities/atoi_lower.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/ANSI_Activities/atoi_lower.c || cmake_object_order_depends_target_ANSI_Book
+  DEP_FILE = CMakeFiles/ANSI_Book.dir/ANSI_Activities/atoi_lower.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/ANSI_Book.dir
+  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir/ANSI_Activities
+
+build CMakeFiles/ANSI_Book.dir/ANSI_Activities/binarySearch.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/ANSI_Activities/binarySearch.c || cmake_object_order_depends_target_ANSI_Book
+  DEP_FILE = CMakeFiles/ANSI_Book.dir/ANSI_Activities/binarySearch.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/ANSI_Book.dir
+  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir/ANSI_Activities
+
+build CMakeFiles/ANSI_Book.dir/ANSI_Activities/itoaAndTrim.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/ANSI_Activities/itoaAndTrim.c || cmake_object_order_depends_target_ANSI_Book
+  DEP_FILE = CMakeFiles/ANSI_Book.dir/ANSI_Activities/itoaAndTrim.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/ANSI_Book.dir
+  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir/ANSI_Activities
+
+build CMakeFiles/ANSI_Book.dir/ANSI_Activities/getline_strindex.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/ANSI_Activities/getline_strindex.c || cmake_object_order_depends_target_ANSI_Book
+  DEP_FILE = CMakeFiles/ANSI_Book.dir/ANSI_Activities/getline_strindex.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/ANSI_Book.dir
+  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir/ANSI_Activities
+
+build CMakeFiles/ANSI_Book.dir/ANSI_Activities/polishcalculator.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/ANSI_Activities/polishcalculator.c || cmake_object_order_depends_target_ANSI_Book
+  DEP_FILE = CMakeFiles/ANSI_Book.dir/ANSI_Activities/polishcalculator.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/ANSI_Book.dir
+  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir/ANSI_Activities
+
+build CMakeFiles/ANSI_Book.dir/ANSI_Activities/getop_getch_ungetch.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/ANSI_Activities/getop_getch_ungetch.c || cmake_object_order_depends_target_ANSI_Book
+  DEP_FILE = CMakeFiles/ANSI_Book.dir/ANSI_Activities/getop_getch_ungetch.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/ANSI_Book.dir
+  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir/ANSI_Activities
 
 
 # =============================================================================
@@ -116,7 +152,7 @@ build CMakeFiles/ANSI_Book.dir/longestLine.c.o: C_COMPILER__ANSI_Book_Debug /Use
 #############################################
 # Link the executable ANSI_Book
 
-build ANSI_Book: C_EXECUTABLE_LINKER__ANSI_Book_Debug CMakeFiles/ANSI_Book.dir/firstProgram.c.o CMakeFiles/ANSI_Book.dir/main.c.o CMakeFiles/ANSI_Book.dir/countingSpaces.c.o CMakeFiles/ANSI_Book.dir/countingDigitsWithArrays.c.o CMakeFiles/ANSI_Book.dir/fahreinheitPowerFunctions.c.o CMakeFiles/ANSI_Book.dir/longestLine.c.o
+build ANSI_Book: C_EXECUTABLE_LINKER__ANSI_Book_Debug CMakeFiles/ANSI_Book.dir/ANSI_Activities/firstProgram.c.o CMakeFiles/ANSI_Book.dir/main.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/countingSpaces.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/countingDigitsWithArrays.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/fahreinheitPowerFunctions.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/longestLine.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/atoi_lower.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/binarySearch.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/itoaAndTrim.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/getline_strindex.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/polishcalculator.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/getop_getch_ungetch.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/ANSI_Book.dir
   POST_BUILD = :

@@ -1,8 +1,15 @@
 //
-// Created by Max Boykin on 4/5/22.
+// Created by Max Boykin on 4/14/22.
 //
+
+#ifndef ANSI_BOOK_ATOI_LOWER_H
+#define ANSI_BOOK_ATOI_LOWER_H
+
+#endif //ANSI_BOOK_ATOI_LOWER_H
+
 #include <string.h>
 #include <stdio.h>
+
 /* atoi: convert s to integer
  * The atoi() function in C takes a string (which represents an integer)
  * as an argument and returns its value of type int. So basically the
@@ -15,12 +22,13 @@ int atoiCustom(char s[]) {
     for (i = 0; s[i] >= '0' && s[i] <= '9'; ++i)
         n = 10 * n + (s[i] - '0');
     //example 55, first would be 5 since n = 0; then it would be 5*10 + 5 => 55/
+    printf("This is the atoi %i", n);
     return n;
 }
 
 /* lower: convert c to lower case
  */
-int lower(int c)
+int lowerCustom(int c)
 {
     if (c >= 'A' && c <= 'Z')
         return c + 'a' - 'A';
@@ -28,7 +36,7 @@ int lower(int c)
         return c;
 }
 
-int htoi(char s[])
+int htoiCustom(char s[])
 {
     int i = 0;
     if (s[i] == '0')
@@ -71,10 +79,10 @@ int htoi(char s[])
 //        i++;
 //    while ((s[i++] = t[j++]) != '\0'); /* copy t */
 //}
-int randomFunctions()
+int randomFunctionsCustom()
 {
     char a[] = "0x71927";
-    htoi(a);
+    htoiCustom(a);
 
     return 0;
 }

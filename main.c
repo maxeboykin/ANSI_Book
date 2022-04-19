@@ -12,9 +12,10 @@
 
 int main()
 {
+    numberOfDaysInMonth();
     //printASCIICharacters();
-    calculateDigitsOfANumber();
-    calculatePower();
+    //calculateDigitsOfANumber();
+    //calculatePower();
     //evenOrOdd();
     //returnLargestOfThree();
     //checkLeapYear();

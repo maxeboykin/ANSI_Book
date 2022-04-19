@@ -126,12 +126,6 @@ build CMakeFiles/ANSI_Book.dir/ANSI_Activities/getline_strindex.c.o: C_COMPILER_
   OBJECT_DIR = CMakeFiles/ANSI_Book.dir
   OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir/ANSI_Activities
 
-build CMakeFiles/ANSI_Book.dir/ANSI_Activities/polishcalculator.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/ANSI_Activities/polishcalculator.c || cmake_object_order_depends_target_ANSI_Book
-  DEP_FILE = CMakeFiles/ANSI_Book.dir/ANSI_Activities/polishcalculator.c.o.d
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu90
-  OBJECT_DIR = CMakeFiles/ANSI_Book.dir
-  OBJECT_FILE_DIR = CMakeFiles/ANSI_Book.dir/ANSI_Activities
-
 build CMakeFiles/ANSI_Book.dir/ANSI_Activities/getop_getch_ungetch.c.o: C_COMPILER__ANSI_Book_Debug /Users/maxboykin/CLionProjects/ANSI_Book/ANSI_Activities/getop_getch_ungetch.c || cmake_object_order_depends_target_ANSI_Book
   DEP_FILE = CMakeFiles/ANSI_Book.dir/ANSI_Activities/getop_getch_ungetch.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu90
@@ -146,7 +140,7 @@ build CMakeFiles/ANSI_Book.dir/ANSI_Activities/getop_getch_ungetch.c.o: C_COMPIL
 #############################################
 # Link the executable ANSI_Book
 
-build ANSI_Book: C_EXECUTABLE_LINKER__ANSI_Book_Debug CMakeFiles/ANSI_Book.dir/ANSI_Activities/firstProgram.c.o CMakeFiles/ANSI_Book.dir/main.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/countingSpaces.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/countingDigitsWithArrays.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/fahreinheitPowerFunctions.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/longestLine.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/binarySearch.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/itoaAndTrim.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/getline_strindex.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/polishcalculator.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/getop_getch_ungetch.c.o
+build ANSI_Book: C_EXECUTABLE_LINKER__ANSI_Book_Debug CMakeFiles/ANSI_Book.dir/ANSI_Activities/firstProgram.c.o CMakeFiles/ANSI_Book.dir/main.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/countingSpaces.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/countingDigitsWithArrays.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/fahreinheitPowerFunctions.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/longestLine.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/binarySearch.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/itoaAndTrim.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/getline_strindex.c.o CMakeFiles/ANSI_Book.dir/ANSI_Activities/getop_getch_ungetch.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/ANSI_Book.dir
   POST_BUILD = :

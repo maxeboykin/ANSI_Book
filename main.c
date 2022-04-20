@@ -18,7 +18,9 @@
 
 int main()
 {
-    callingSwap();
+    simpleChangeValueWithPointer();
+    //createPrintArrayElementsPointer();
+    //callingSwap();
     //convertBinaryToDecimal();
     //isEven();
     //numberOfDaysInMonth();

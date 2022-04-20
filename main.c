@@ -18,7 +18,8 @@
 
 int main()
 {
-    isEven();
+    convertBinaryToDecimal();
+    //isEven();
     //numberOfDaysInMonth();
     //printASCIICharacters();
     //calculateDigitsOfANumber();

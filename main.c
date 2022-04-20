@@ -8,11 +8,18 @@
 #include "ANSI_Activities/polishcalculator.h"
 #include "ANSI_Activities/loopPrograms.h"
 #include "ANSI_Activities/switchCase.h"
+#include "ANSI_Activities/functionRecursion.h"
+#include "ANSI_Activities/array.h"
+#include "ANSI_Activities/pointers.h"
+#include "ANSI_Activities/matrix.h"
+#include "ANSI_Activities/structure.h"
+
 
 
 int main()
 {
-    numberOfDaysInMonth();
+    isEven();
+    //numberOfDaysInMonth();
     //printASCIICharacters();
     //calculateDigitsOfANumber();
     //calculatePower();

@@ -87,3 +87,24 @@ void simpleChangeValueWithPointer()
 
     return;
 }
+
+void printArrayWithAddresses()
+{
+    int arr[10];
+    int *ptr;
+    int i;
+
+    ptr=&arr[0];
+
+    printf("Enter array elements:\n");
+    for(i=0;i<5;i++){
+        scanf("%d", ptr+i); //reading through pointer
+    }
+
+    printf("\nEntered array elements are:");
+    printf("\nAddress\t\tPointer\t\t\tValue\n");
+    for(i=0;i<5;i++){
+        printf("%08X\t%p\t%03d\n", (ptr+i),(ptr+i), *(ptr+i));
+    }
+    return;
+}

@@ -18,7 +18,8 @@
 
 int main()
 {
-    simpleChangeValueWithPointer();
+    printArrayWithAddresses();
+    //simpleChangeValueWithPointer();
     //createPrintArrayElementsPointer();
     //callingSwap();
     //convertBinaryToDecimal();
